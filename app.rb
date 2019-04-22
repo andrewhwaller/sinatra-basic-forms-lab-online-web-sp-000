@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/home' do
+  get '/' do
     erb :home
   end
 end
